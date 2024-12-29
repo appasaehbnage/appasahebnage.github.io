@@ -1,0 +1,22 @@
+/* Add these styles to your CSS file */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    padding: 1rem;
+    font-size: 0.75rem;
+    background-color: white !important; /* Solid background for light theme */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* When dark theme is active */
+  :root[data-theme='dark'] .dark\:bg-gray-900 {
+    background-color: rgba(17, 24, 39, 1) !important; /* Solid background for dark theme */
+    color: white;
+  }
+  
+  /* Additional styles to ensure content doesn't overlap */
+  .dark\:bg-gray-900 + * {
+    position: relative;
+    margin-top: 1rem; /* Add some spacing after the navbar */
+  }
