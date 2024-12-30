@@ -9,14 +9,14 @@ export const routes: Routes = [
         path: '',
         component: AppComponent,
     },
-    {
-        path: '#about',
-        component: AboutComponent,
-    },
-    {
-        path: '#experience',
-        component: ExperienceComponent,
-    },
+    // {
+    //     path: '#about',
+    //     component: AboutComponent,
+    // },
+    // {
+    //     path: '#experience',
+    //     component: ExperienceComponent,
+    // },
     // {
     //     path: '**',
     //     redirectTo: '#',

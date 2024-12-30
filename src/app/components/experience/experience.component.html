@@ -1,14 +1,14 @@
 <!-- Experience -->
 <section class="bg-white rounded-lg shadow p-6 sm:p-8 dark:bg-gray-800 antialiased mt-6">
     <div class="max-w-3xl mx-auto">
-        <h2 id="#experience" class="text-2xl font-semibold text-gray-800 dark:text-white sm:text-3xl text-center">{{ title }}</h2>
+        <h2 class="text-2xl font-semibold text-gray-800 dark:text-white sm:text-3xl text-center">{{ title }}</h2>
         <div class="mx-auto max-w-4xl">
             <!-- Company Experiences -->
             @for (companyExperience of companyExperiences; track $index) {
             <div class="flex justify-start p-4">
                 <p>
                     <a href="{{companyExperience.website}}">
-                        <img class="w-16 md:w-16 lg:w-16 rounded-lg" [src]="'../../../../public/' + companyExperience.logo"
+                        <img class="w-16 md:w-16 lg:w-16 rounded-lg" [src]="companyExperience.logo"
                             (alt)=" companyExperience.companyName" />
                         <div class="ml-8">
                             <h2 class="text-xm font-bold text-grey-500">{{companyExperience.companyName}}</h2>
