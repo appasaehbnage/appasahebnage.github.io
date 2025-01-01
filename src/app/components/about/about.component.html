@@ -4,41 +4,121 @@
             About Me
         </h2>
         <p class="mt-4 text-gray-600 dark:text-gray-400">
-            Hi, I'm <span class="font-bold text-gray-900 dark:text-white">Appasaheb Nage</span>, a passionate software developer specializing in creating efficient and scalable web solutions. With expertise in Angular, Tailwind CSS, and various modern web technologies, I enjoy building applications that make a difference. Let's connect and create something amazing together!
+            Hi, I'm <span class="font-bold text-gray-900 dark:text-white">Appasaheb Nage</span>, A passionate backend
+            developer
+            with expertise in NestJS, focused on designing and implementing scalable applications. I specialize in
+            leveraging
+            AWS for cloud-based solutions and automating deployment pipelines to ensure efficiency and reliability.
         </p>
+
+        <p class="mt-4 text-gray-600 dark:text-gray-400">
+            My journey into Open Source has been fulfilling, and I’m eager to continue contributing to impactful
+            projects.Recently,
+            I’ve started exploring front-end development with Angular, expanding my abilities to create seamless,
+            full-stack applications.
+        </p>
+        <p class="mt-4 text-gray-600 dark:text-gray-400">
+            Let’s collaborate to craft innovative and meaningful software together!
+
+            <!-- Hi, I'm <span class="font-bold text-gray-900 dark:text-white">Appasaheb Nage</span>, a passionate backend developer 
+        specializing in <span class="text-[#E0234E]">NestJS</span> and <span class="text-[#DD0031]">Angular</span>. 
+        I excel at building scalable, end-to-end applications with infrastructure as code using 
+        <span class="text-[#FF9900]">AWS</span>. I'm enthusiastic about contributing to 
+        <span class="text-[#3DA639]">Open Source</span> projects and expanding my skills in front-end development. 
+        Let's collaborate to create impactful solutions! -->
+        </p>
+        <button class="px-4 py-2 mt-8 rounded-lg bg-orange-400 text-white hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 transition duration-300">
+            <a href="https://cal.com/appasaheb-nage/30min">Schedule A Meet</a>
+          </button>
     </div>
 
-    <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div class="flex items-center space-x-4">
-            <div class="flex items-center justify-center w-12 h-12 bg-blue-100 text-blue-500 rounded-full dark:bg-blue-800 dark:text-blue-300">
-                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.828 21H6a2 2 0 01-2-2V8a2 2 0 012-2h5.828a2 2 0 011.414.586l4.172 4.172a2 2 0 01.586 1.414V19a2 2 0 01-2 2z" />
-                </svg>
+    <!-- Carousel Section -->
+    <div id="expertise-carousel" class="relative w-full" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative h-72 overflow-hidden rounded-lg md:h-60">
+            <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out flex flex-col items-center justify-center" data-carousel-item>
+                <img src="https://nestjs.com/img/logo_text.svg" alt="NestJS logo" class="w-28 h-28 mb-4" />
+                <p class="text-lg font-semibold text-gray-700 dark:text-gray-300">
+                    Expertise in <span class="text-[#3DA639]">Node.js</span> & <span
+                        class="text-[#E0234E]">NestJS</span>
+                </p>
             </div>
-            <p class="text-gray-700 dark:text-gray-300">
-                Expertise in <span class="font-semibold">Modern Web Development</span>
-            </p>
-        </div>
-        <div class="flex items-center space-x-4">
-            <div class="flex items-center justify-center w-12 h-12 bg-green-100 text-green-500 rounded-full dark:bg-green-800 dark:text-green-300">
-                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c1.886 0 3.706.707 5.077 2.079A7.017 7.017 0 0120 15a7 7 0 11-14 0c0-1.886.707-3.706 2.079-5.077A7.017 7.017 0 0112 8z" />
-                </svg>
+
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out flex flex-col items-center justify-center" data-carousel-item>
+                <img src="aws.png" alt="AWS logo" class="w-28 h-28 mb-4" />
+                <p class="text-lg font-semibold text-gray-700 dark:text-gray-300">
+                    Skilled in <span class="text-[#FF9900]">AWS Development & Deployment</span>
+                </p>
             </div>
-            <p class="text-gray-700 dark:text-gray-300">
-                Passionate about <span class="font-semibold">Open Source Contributions</span>
-            </p>
-        </div>
-        <div class="flex items-center space-x-4">
-            <div class="flex items-center justify-center w-12 h-12 bg-yellow-100 text-yellow-500 rounded-full dark:bg-yellow-800 dark:text-yellow-300">
-                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 9.75a2.25 2.25 0 014.5 0v4.5a2.25 2.25 0 01-4.5 0v-4.5z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12a7.5 7.5 0 0115 0v2.25a4.5 4.5 0 11-9 0v-4.5" />
-                </svg>
+
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out flex flex-col items-center justify-center" data-carousel-item>
+                <img src="opensource.png" alt="Open Source logo" class="w-28 h-28 mb-4" />
+                <p class="text-lg font-semibold text-gray-700 dark:text-gray-300">
+                    Passionate about <span class="text-[#3DA639]">Open Source Contributions</span>
+                </p>
             </div>
-            <p class="text-gray-700 dark:text-gray-300">
-                Dedicated to <span class="font-semibold">Learning New Technologies</span>
-            </p>
+
+            <!-- Item 4 -->
+            <div class="hidden duration-700 ease-in-out flex flex-col items-center justify-center" data-carousel-item>
+                <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular logo"
+                    class="w-28 h-28 mb-4" />
+                <p class="text-lg font-semibold text-gray-700 dark:text-gray-300">
+                    Beginner in <span class="text-[#DD0031]">Angular Front-End Development</span>
+                </p>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="hidden duration-700 ease-in-out flex flex-col items-center justify-center" data-carousel-item>
+                <img src="feture.png" alt="Learning Icon" class="w-28 h-28 mb-4 rounded-full" />
+                <p class="text-lg font-semibold text-gray-700 dark:text-gray-300">
+                    Enthusiastic about <span class="text-[#007ACC]">Learning New Technologies</span>
+                </p>
+            </div>
         </div>
+
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3">
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                data-carousel-slide-to="0"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                data-carousel-slide-to="1"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                data-carousel-slide-to="2"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                data-carousel-slide-to="3"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                data-carousel-slide-to="4"></button>
+        </div>
+
+        <!-- Slider controls -->
+        <button type="button"
+            class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev>
+            <span
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60">
+                <svg class="w-4 h-4 text-gray-800 dark:text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M5 1 1 5l4 4"></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+            </span>
+        </button>
+        <button type="button"
+            class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-next>
+            <span
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60">
+                <svg class="w-4 h-4 text-gray-800 dark:text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="m1 9 4-4-4-4"></path>
+                </svg>
+                <span class="sr-only">Next</span>
+            </span>
+        </button>
     </div>
 </section>

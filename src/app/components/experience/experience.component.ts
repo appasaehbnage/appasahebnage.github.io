@@ -32,8 +32,8 @@ export class ExperienceComponent {
       experiences: [
         {
           position: 'Engineering Manager',
-          startDate: 'April, 2022',
-          endDate: 'April, 2024',
+          startDate: 'Nov, 2023',
+          endDate: 'Present',
           duration: '1 yrs 2 mos',
           points: [
             'lorem',
